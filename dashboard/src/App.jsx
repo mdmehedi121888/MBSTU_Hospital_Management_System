@@ -21,7 +21,7 @@ const App = () => {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "https://hms-backend-pi.vercel.app/api/v1/user/admin/me",
+          "https://hms-backend-1-af33.onrender.com/api/v1/user/admin/me",
           {
             withCredentials: true,
           }

@@ -59,7 +59,7 @@ const AddNewDoctor = () => {
       formData.append("docAvatar", docAvatar);
       await axios
         .post(
-          "https://hms-backend-pi.vercel.app/api/v1/user/doctor/addnew",
+          "https://hms-backend-1-af33.onrender.com/api/v1/user/doctor/addnew",
           formData,
           {
             withCredentials: true,

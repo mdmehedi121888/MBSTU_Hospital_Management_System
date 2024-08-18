@@ -14,7 +14,7 @@ const MessageForm = () => {
     try {
       await axios
         .post(
-          "https://hms-backend-pi.vercel.app/api/v1/message/send",
+          "https://hms-backend-1-af33.onrender.com/api/v1/message/send",
           {
             firstName,
             lastName,

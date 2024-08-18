@@ -16,7 +16,7 @@ const Login = () => {
     try {
       await axios
         .post(
-          "https://hms-backend-pi.vercel.app/api/v1/user/login",
+          "https://hms-backend-1-af33.onrender.com/api/v1/user/login",
           { email, password, role: "Admin" },
           {
             withCredentials: true,

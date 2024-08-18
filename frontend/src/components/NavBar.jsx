@@ -13,7 +13,7 @@ const NavBar = () => {
   const handleLogout = async () => {
     try {
       const res = await axios.get(
-        "https://hms-backend-pi.vercel.app/api/v1/user/patient/logout",
+        "https://hms-backend-1-af33.onrender.com/api/v1/user/patient/logout",
         { withCredentials: true }
       );
       toast.success(res.data.message);
