@@ -1,6 +1,6 @@
-### Registration Page
+### Registration Page for Patient
 ![1](https://github.com/user-attachments/assets/8bf8d168-d18e-42d9-bbf3-b6538c2f1ac0)
-### Login Page
+### Login Page for Patient
 ![2](https://github.com/user-attachments/assets/876d3e58-0f4d-4e41-aa0a-9814288a0d8c)
 ### Home Page
 ![3](https://github.com/user-attachments/assets/85686073-366e-49b9-a5b4-de535cf96742)
