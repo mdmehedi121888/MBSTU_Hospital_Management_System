@@ -13,7 +13,7 @@ const NavBar = () => {
   const handleLogout = async () => {
     try {
       const res = await axios.get(
-        "https://hms-backend-1-af33.onrender.com/api/v1/user/patient/logout",
+        "http://localhost:4000/api/v1/user/patient/logout",
         { withCredentials: true }
       );
       toast.success(res.data.message);

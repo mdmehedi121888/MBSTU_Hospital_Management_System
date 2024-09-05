@@ -11,7 +11,7 @@ const Messages = () => {
     const fetchMessages = async () => {
       try {
         const { data } = await axios.get(
-          "https://hms-backend-1-af33.onrender.com/api/v1/message/getall",
+          "http://localhost:4000/api/v1/message/getall",
           { withCredentials: true }
         );
         setMessages(data.messages);

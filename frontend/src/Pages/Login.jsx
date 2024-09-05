@@ -14,7 +14,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://hms-backend-1-af33.onrender.com/api/v1/user/login",
+        "http://localhost:4000/api/v1/user/login",
         { email, password, role: "Patient" },
         {
           withCredentials: true,
@@ -36,10 +36,6 @@ const Login = () => {
     <div className="container form-component login-form">
       <h2>Sign In</h2>
       <p>Please Login To Continue</p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minus
-        amet dolorum fugit quae est.
-      </p>
       <form onSubmit={handleLogin}>
         <input
           type="text"
